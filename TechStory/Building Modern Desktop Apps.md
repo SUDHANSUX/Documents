@@ -61,9 +61,9 @@ The leading-edge framework for Windows apps development. It has evolved from the
 ## Install WinUI 3.0 Preview2
 1.	Ensure that your development computer has Windows 10, version 1803 (build 17134), or newer installed.
 2.	Install Visual Studio 2019, version 16.7.x
-> You must include the following workloads when installing Visual Studio:
-*	.NET Desktop Development
-*	Universal Windows Platform development
+>You must include the following workloads when installing Visual Studio:
++	.NET Desktop Development
++	Universal Windows Platform development
 >To build C++ apps, you must also include the following workloads:
 *	Desktop development with C++
 *	The C++ (v142) Universal Windows Platform tools optional component for the Universal Windows Platform workload (see "Installation Details" under the "Universal Windows Platform development" section, on the right pane)
@@ -79,3 +79,15 @@ Open “Create new project” Visual Studio Wizard, use filer “Language: C#, P
 
 ![alt text](../Images/WinUI_3.0_Project_Templates.png)
 
+## Exercise (Simple Calculator) Using WinUI
+
+![alt text](../Images/Simple_Calculator_WinUI.png)
+ 
+This sample source code can be found at - https://github.com/SUDHANSUX/SimpleCalculator/ 
+
+## XAML Controls Gallery App
+This app demonstrates all of the Xaml and Windows UI library controls available to make a Fluent Windows app. To learn more about the Windows UI library and how you can integrate it into your application, visit: https://aka.ms/winui 
+
+![alt text](../Images/XAML_Controls_Gallery_App.png)
+
+End of File.
