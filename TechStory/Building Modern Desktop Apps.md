@@ -42,9 +42,40 @@ Project Reunion is an umbrella project that makes it easier to build a great Win
 |:------------- |:-------------------|:------------------|
 | Win32         | Api-ms-Win-*.dll   | Native C          |
 | WinRT/UWP     | Windows.*.dll      | COM/DCOM Library  |
-| WinUI 		      | Microsoft.ui.*.dll | COM/DCOM Library  |
-| dotnet 		     | System.*.dll       | .Net CLI Assembly |
+| WinUI 		| Microsoft.ui.*.dll | COM/DCOM Library  |
+| dotnet 		| System.*.dll       | .Net CLI Assembly |
 
 ## Language Selection for Development
 
 ![alt text](../Images/X_marks_the_targeted_M_spot.png)
+
+## Windows UI Library (WinUI)
+The leading-edge framework for Windows apps development. It has evolved from the UX layer of UWP/WinRT platform to a complete and independent UX framework. WinUI can be used in existing MFC, WinForms, or WPF apps to modernize and gradually migrate. WinUI Can also be used to develop application from scratch for desktop or UWP.
+
+![alt text](../Images/WinUI_3.0_Architecture.png)
+
+## WinUI3 Release roadmap
+
+![alt text](../Images/WinUI-Roadmap-Aug2020.jpg)
+
+## Install WinUI 3.0 Preview2
+1.	Ensure that your development computer has Windows 10, version 1803 (build 17134), or newer installed.
+2.	Install Visual Studio 2019, version 16.7.x
+> You must include the following workloads when installing Visual Studio:
+*	.NET Desktop Development
+*	Universal Windows Platform development
+>To build C++ apps, you must also include the following workloads:
+*	Desktop development with C++
+*	The C++ (v142) Universal Windows Platform tools optional component for the Universal Windows Platform workload (see "Installation Details" under the "Universal Windows Platform development" section, on the right pane)
+>Once you've downloaded Visual Studio, make sure you enable .NET previews within the program:
+*	Go to Tools > Options > Environment > Preview Features > Select "Use previews of the .NET Core SDK (requires restart)".
+3.	If you want to create desktop WinUI projects for C#/.NET 5 and C++/Win32 apps, you must also install both x64 and x86 versions of .NET 5 Preview 7. 
+*	x64: https://aka.ms/dotnet/net5/preview7/Sdk/dotnet-sdk-win-x64.exe
+*	x86: https://aka.ms/dotnet/net5/preview7/Sdk/dotnet-sdk-win-x86.exe
+4.	Download and install the WinUI 3 Preview 2 VSIX package. This VSIX package adds the WinUI 3 project templates and NuGet package containing the WinUI 3 libraries to Visual Studio 2019.
+
+## WinUI3 Project Template Types
+Open “Create new project” Visual Studio Wizard, use filer “Language: C#, Platform: Windows, Project Type: WinUI” to list out the supported WinUI Template. You can select “Blank App, packaged (WinUI in Desktop)” to create a sample desktop application.
+
+![alt text](../Images/WinUI_3.0_Project_Templates.png)
+
