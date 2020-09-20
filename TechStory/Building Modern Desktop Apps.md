@@ -40,4 +40,4 @@ Project Reunion is an umbrella project that makes it easier to build a great Win
 
 ## Language Selection for Development
 
-![alt text](../Images/X_marks_the_targeted_M#_spot.png)
+![alt text](../Images/X_marks_the_targeted_M_spot.png)
