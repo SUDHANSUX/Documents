@@ -20,12 +20,12 @@ WinUI (Windows UI Library) – The leading-edge framework for Windows apps devel
 ## Windows Development Target
 There are two kinds of applications windows supports “1. Full Trust Win32/Desktop” Application, and “2-WinRT/UWP Sandboxed” application. A “Full Trust Win32/Desktop” app can also be sandboxed using the bridge technology.
 
-![alt text](../Images/UWP_Architecture.png)
+![alt text](../Images/Dev_Platform_Diagram.png)
  
 ## UWP Bridge Technology
 UWP Bridges translate calls in other application programming interfaces (APIs) to the UWP interface, so that applications written in these APIs would run on UWP. Bridges available to run Android, iOS, Windows desktop apps, Microsoft Silverlight, and progressive web apps on UWP.
 
-![alt text](../Images/Dev_Platform_Diagram.png)
+![alt text](../Images/UWP_Architecture.png)
 
 ## Microsoft Project Reunion
 Project Reunion is an umbrella project that makes it easier to build a great Windows app by providing a unified platform for new and existing Win32 and UWP apps. It will unify access to existing Win32 and UWP APIs and make them available decoupled from the OS. Some of the components of project reunion are: WinUI3, WebView2, MSIX, and Modern Resource Tooling.
@@ -40,4 +40,4 @@ Project Reunion is an umbrella project that makes it easier to build a great Win
 
 ## Language Selection for Development
 
-![alt text](../Images/X_marks_the_targeted_M_spot.png)
+![alt text](../Images/X_marks_the_targeted_M#_spot.png)
