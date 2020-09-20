@@ -20,7 +20,7 @@ WinUI (Windows UI Library) – The leading-edge framework for Windows apps devel
 ## Windows Development Target
 There are two kinds of applications windows supports “1. Full Trust Win32/Desktop” Application, and “2-WinRT/UWP Sandboxed” application. A “Full Trust Win32/Desktop” app can also be sandboxed using the bridge technology.
 
-![alt text](../Images/Dev_Platform_Diagram.png)
+![alt text](../Images/UWP_Architecture.png)
  
 ## UWP Bridge Technology
 UWP Bridges translate calls in other application programming interfaces (APIs) to the UWP interface, so that applications written in these APIs would run on UWP. Bridges available to run Android, iOS, Windows desktop apps, Microsoft Silverlight, and progressive web apps on UWP.
