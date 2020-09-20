@@ -25,7 +25,7 @@ There are two kinds of applications windows supports “1. Full Trust Win32/Desk
 ## UWP Bridge Technology
 UWP Bridges translate calls in other application programming interfaces (APIs) to the UWP interface, so that applications written in these APIs would run on UWP. Bridges available to run Android, iOS, Windows desktop apps, Microsoft Silverlight, and progressive web apps on UWP.
 
-![alt text](../Images/UWP_Architecture.png)
+![alt text](../Images/Dev_Platform_Diagram.png)
 
 ## Microsoft Project Reunion
 Project Reunion is an umbrella project that makes it easier to build a great Windows app by providing a unified platform for new and existing Win32 and UWP apps. It will unify access to existing Win32 and UWP APIs and make them available decoupled from the OS. Some of the components of project reunion are: WinUI3, WebView2, MSIX, and Modern Resource Tooling.
@@ -34,8 +34,10 @@ Project Reunion is an umbrella project that makes it easier to build a great Win
 
 ## Modern Windows API Stacking
 
-![alt text](../Images/Dev_Platform_Diagram.png)
+![alt text](../Images/How_to_call_WinRT_API.png)
+
+## API Set/Framework Library
 
 ## Language Selection for Development
 
-![alt text](../Images/Dev_Platform_Diagram.png)
+![alt text](../Images/X_marks_the_targeted_M_spot.png)
