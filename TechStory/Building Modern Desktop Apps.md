@@ -7,7 +7,7 @@ To promote develop of applications for Window operating system, Microsoft has in
 ## Platforms for Windows App Development
 The four core platform Microsoft supports for application development are MFC, WinForms, WPF, and WinUI. Each of the platform provides an app model that defines the lifecycle of the app, a complete UI functional framework and set of UI controls to apps. 
 
-![alt text](Images/Win_Dev_Platform.png)
+![alt text](../Images/Win_Dev_Platform.png)
 
 MFC (Microsoft Foundation Class) – It gets you "closer to the metal," and lets you achieve the best performance for your app by taking direct control over memory allocation and performance oriented CPU features like SSE or AVX instructions. MFC provides a light non VM class abstraction over the Win32/COM Native API. The only supported language for MFC application development is VC++. MFC is suitable for write application like Word, Excel, Visio, photo shop, Windows System programs, Device Drivers, and Multimedia/Game development using DirectX.
 
