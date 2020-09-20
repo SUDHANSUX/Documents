@@ -60,7 +60,7 @@ The leading-edge framework for Windows apps development. It has evolved from the
 
 ## Install WinUI 3.0 Preview2
 1.	Ensure that your development computer has Windows 10, version 1803 (build 17134), or newer installed.
-2.	Install Visual Studio 2019, version 16.7.x
+2.	Install [Visual Studio 2019, version 16.7.x](https://visualstudio.microsoft.com/vs/)
 >You must include the following workloads when installing Visual Studio:
 +	.NET Desktop Development
 +	Universal Windows Platform development
@@ -72,7 +72,7 @@ The leading-edge framework for Windows apps development. It has evolved from the
 3.	If you want to create desktop WinUI projects for C#/.NET 5 and C++/Win32 apps, you must also install both x64 and x86 versions of .NET 5 Preview 7. 
 *	x64: https://aka.ms/dotnet/net5/preview7/Sdk/dotnet-sdk-win-x64.exe
 *	x86: https://aka.ms/dotnet/net5/preview7/Sdk/dotnet-sdk-win-x86.exe
-4.	Download and install the WinUI 3 Preview 2 VSIX package. This VSIX package adds the WinUI 3 project templates and NuGet package containing the WinUI 3 libraries to Visual Studio 2019.
+4.	Download and install the [WinUI 3 Preview 2 VSIX package](https://aka.ms/winui3/previewdownload). This VSIX package adds the WinUI 3 project templates and NuGet package containing the WinUI 3 libraries to Visual Studio 2019.
 
 ## WinUI3 Project Template Types
 Open “Create new project” Visual Studio Wizard, use filer “Language: C#, Platform: Windows, Project Type: WinUI” to list out the supported WinUI Template. You can select “Blank App, packaged (WinUI in Desktop)” to create a sample desktop application.
