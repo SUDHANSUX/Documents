@@ -38,6 +38,13 @@ Project Reunion is an umbrella project that makes it easier to build a great Win
 
 ## API Set/Framework Library
 
+| System        | DLL/Library        | Library Type      |
+|:------------- |:-------------------|:------------------|
+| Win32         | Api-ms-Win-*.dll   | Native C          |
+| WinRT/UWP     | Windows.*.dll      | COM/DCOM Library  |
+| WinUI 		      | Microsoft.ui.*.dll | COM/DCOM Library  |
+| dotnet 		     | System.*.dll       | .Net CLI Assembly |
+
 ## Language Selection for Development
 
 ![alt text](../Images/X_marks_the_targeted_M_spot.png)
