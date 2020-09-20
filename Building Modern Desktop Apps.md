@@ -34,8 +34,10 @@ Project Reunion is an umbrella project that makes it easier to build a great Win
 
 ## Modern Windows API Stacking
 
-![alt text](Images/Dev_Platform_Diagram.png)
+![alt text](Images/How_to_call_WinRT_API.png)
+
+## API Set/Framework Library
 
 ## Language Selection for Development
 
-![alt text](Images/Dev_Platform_Diagram.png)
+![alt text](Images/X_marks_the_targeted_M#_spot.png)
