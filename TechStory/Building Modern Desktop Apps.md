@@ -7,7 +7,7 @@ To promote develop of applications for Window operating system, Microsoft has in
 ## Platforms for Windows App Development
 The four core platform Microsoft supports for application development are MFC, WinForms, WPF, and WinUI. Each of the platform provides an app model that defines the lifecycle of the app, a complete UI functional framework and set of UI controls to apps. 
 
-![alt text](Images/Win_Dev_Platform.png)
+![alt text](../Images/Win_Dev_Platform.png)
 
 MFC (Microsoft Foundation Class) – It gets you "closer to the metal," and lets you achieve the best performance for your app by taking direct control over memory allocation and performance oriented CPU features like SSE or AVX instructions. MFC provides a light non VM class abstraction over the Win32/COM Native API. The only supported language for MFC application development is VC++. MFC is suitable for write application like Word, Excel, Visio, photo shop, Windows System programs, Device Drivers, and Multimedia/Game development using DirectX.
 
@@ -20,22 +20,22 @@ WinUI (Windows UI Library) – The leading-edge framework for Windows apps devel
 ## Windows Development Target
 There are two kinds of applications windows supports “1. Full Trust Win32/Desktop” Application, and “2-WinRT/UWP Sandboxed” application. A “Full Trust Win32/Desktop” app can also be sandboxed using the bridge technology.
 
-![alt text](Images/Dev_Platform_Diagram.png)
+![alt text](../Images/Dev_Platform_Diagram.png)
  
 ## UWP Bridge Technology
 UWP Bridges translate calls in other application programming interfaces (APIs) to the UWP interface, so that applications written in these APIs would run on UWP. Bridges available to run Android, iOS, Windows desktop apps, Microsoft Silverlight, and progressive web apps on UWP.
 
-![alt text](Images/UWP_Architecture.png)
+![alt text](../Images/UWP_Architecture.png)
 
 ## Microsoft Project Reunion
 Project Reunion is an umbrella project that makes it easier to build a great Windows app by providing a unified platform for new and existing Win32 and UWP apps. It will unify access to existing Win32 and UWP APIs and make them available decoupled from the OS. Some of the components of project reunion are: WinUI3, WebView2, MSIX, and Modern Resource Tooling.
 
-![alt text](Images/Evolving_Windows_Platform.jpg)
+![alt text](../Images/Evolving_Windows_Platform.jpg)
 
 ## Modern Windows API Stacking
 
-![alt text](Images/Dev_Platform_Diagram.png)
+![alt text](../Images/Dev_Platform_Diagram.png)
 
 ## Language Selection for Development
 
-![alt text](Images/Dev_Platform_Diagram.png)
+![alt text](../Images/Dev_Platform_Diagram.png)
