@@ -2,7 +2,7 @@
 Author: Sudhansu Sekhar Sutar
 
 ## Introduction
-To promote develop of applications for Window operating system, Microsoft has introduced many different technologies (such as Win32, MFC, COM, ATL, Visual Basic, ActiveX, .Net, WinForms, WPF, Silverlight, WinRT/UWP, WinUI) during last 3 decades. Some of them are integral part of the Windows system now, some evolved to new, and a few deprecated. This article discuss some basics about windows app development, how to install the latest WinUI framework, and develop a Sample application using it.
+To promote develop of applications for Window operating system, Microsoft has introduced many different technologies (such as Win32, MFC, COM, ATL, Visual Basic, ActiveX, .Net, WinForms, WPF, Silverlight, WinRT/UWP, WinUI) during last 3 decades. Some of those technologies are now integral part of the Windows system, some evolved to new, and a few deprecated. This article discuss some basics about windows app development, how to install the latest WinUI framework, and develop a Sample application using it.
 
 ## Platforms for Windows App Development
 The four core platform Microsoft supports for application development are MFC, WinForms, WPF, and WinUI. Each of the platform provides an app model that defines the lifecycle of the app, a complete UI functional framework and set of UI controls to apps. 
@@ -83,7 +83,8 @@ Open “Create new project” Visual Studio Wizard, use filer “Language: C#, P
 
 ![alt text](../Images/Simple_Calculator_WinUI.png)
  
-This sample source code can be found at - https://github.com/SUDHANSUX/SimpleCalculator/ 
+This [sample source code location](https://github.com/SUDHANSUX/SimpleCalculator/),
+ 
 
 ## XAML Controls Gallery App
 This app demonstrates all of the Xaml and Windows UI library controls available to make a Fluent Windows app. To learn more about the Windows UI library and how you can integrate it into your application, visit: https://aka.ms/winui 
